@@ -20,10 +20,12 @@ export const ProductCard = ({ product, ...rest }) => (
           pb: 3
         }}
       >
-        <Avatar
+        <img
           alt="Product"
           src={product.media}
-          variant="square"
+          style={{
+            maxWidth: '100%',
+          }}
         />
       </Box>
       <Typography
