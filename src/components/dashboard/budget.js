@@ -19,13 +19,13 @@ export const Budget = (props) => (
             gutterBottom
             variant="overline"
           >
-            BUDGET
+            Yarn Fabric
           </Typography>
           <Typography
             color="textPrimary"
             variant="h4"
           >
-            $24k
+            900k
           </Typography>
         </Grid>
         <Grid item>
@@ -47,7 +47,7 @@ export const Budget = (props) => (
           alignItems: 'center'
         }}
       >
-        <ArrowDownwardIcon color="error" />
+        {/* <ArrowDownwardIcon color="error" />
         <Typography
           color="error"
           sx={{
@@ -56,12 +56,12 @@ export const Budget = (props) => (
           variant="body2"
         >
           12%
-        </Typography>
+        </Typography> */}
         <Typography
           color="textSecondary"
           variant="caption"
         >
-          Since last month
+          meters/year
         </Typography>
       </Box>
     </CardContent>

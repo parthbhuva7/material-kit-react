@@ -9,6 +9,7 @@ import { TotalCustomers } from '../components/dashboard/total-customers';
 import { TotalProfit } from '../components/dashboard/total-profit';
 import { TrafficByDevice } from '../components/dashboard/traffic-by-device';
 import { DashboardLayout } from '../components/dashboard-layout';
+import { ImageShow } from 'src/components/dashboard/image-show';
 
 const Dashboard = () => (
   <>
@@ -29,6 +30,15 @@ const Dashboard = () => (
           container
           spacing={3}
         >
+          <Grid
+            item
+            lg={12}
+            md={12}
+            xl={12}
+            xs={12}
+          >
+            <ImageShow />
+          </Grid>
           <Grid
             item
             lg={3}

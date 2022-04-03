@@ -4,8 +4,15 @@ import { products } from '../__mocks__/products';
 import { ProductListToolbar } from '../components/product/product-list-toolbar';
 import { ProductCard } from '../components/product/product-card';
 import { DashboardLayout } from '../components/dashboard-layout';
+import { PortfolioModal } from 'src/components/portfolio/portfolio-modal';
+import React from 'react';
 
-const Products = () => (
+const Products = () => {
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
+  return(
   <>
     <Head>
       <title>
@@ -19,6 +26,7 @@ const Products = () => (
         py: 8
       }}
     >
+      <PortfolioModal openState={open} handleClose={handleClose}/>
       <Container maxWidth={false}>
         <ProductListToolbar />
         <Box sx={{ pt: 3 }}>
@@ -40,23 +48,7 @@ const Products = () => (
                       cursor: 'pointer'
                     }
                   }}
-                  onClick={() =>{
-                    <Modal
-                    open={open}
-                    // onClose={handleClose}
-                    aria-labelledby="modal-modal-title"
-                    aria-describedby="modal-modal-description"
-                    >
-                      <Box>
-                        <Typography id="modal-modal-title" variant="h6" component="h2">
-                          Text in a modal
-                        </Typography>
-                        <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                          Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                        </Typography>
-                      </Box>
-                    </Modal>
-                  }}
+                  onClick={handleOpen}
                   product={product} 
                 />
               </Grid>
@@ -80,6 +72,7 @@ const Products = () => (
     </Box>
   </>
 );
+}
 
 Products.getLayout = (page) => (
   <DashboardLayout>

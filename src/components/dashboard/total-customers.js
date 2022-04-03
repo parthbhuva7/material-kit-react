@@ -22,7 +22,7 @@ export const TotalCustomers = (props) => (
             color="textPrimary"
             variant="h4"
           >
-            1,6k
+            1.6k
           </Typography>
         </Grid>
         <Grid item>
@@ -45,19 +45,19 @@ export const TotalCustomers = (props) => (
         }}
       >
         <ArrowUpwardIcon color="success" />
-        <Typography
+        {/* <Typography
           variant="body2"
           sx={{
             mr: 1
           }}
         >
           16%
-        </Typography>
+        </Typography> */}
         <Typography
           color="textSecondary"
           variant="caption"
         >
-          Since last month
+          And Growing
         </Typography>
       </Box>
     </CardContent>
