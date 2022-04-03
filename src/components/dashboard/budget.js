@@ -61,7 +61,7 @@ export const Budget = (props) => (
           color="textSecondary"
           variant="caption"
         >
-          meters/year
+          meter/year
         </Typography>
       </Box>
     </CardContent>

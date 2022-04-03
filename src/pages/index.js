@@ -10,6 +10,7 @@ import { TotalProfit } from '../components/dashboard/total-profit';
 import { TrafficByDevice } from '../components/dashboard/traffic-by-device';
 import { DashboardLayout } from '../components/dashboard-layout';
 import { ImageShow } from 'src/components/dashboard/image-show';
+import { CorporateProfile } from '../components/dashboard/corporate-profile';
 
 const Dashboard = () => (
   <>
@@ -77,6 +78,15 @@ const Dashboard = () => (
           </Grid>
           <Grid
             item
+            lg={12}
+            md={12}
+            xl={12}
+            xs={12}
+          >
+            <CorporateProfile />
+          </Grid>
+          {/* <Grid
+            item
             lg={8}
             md={12}
             xl={9}
@@ -110,7 +120,7 @@ const Dashboard = () => (
             xs={12}
           >
             <LatestOrders />
-          </Grid>
+          </Grid> */}
         </Grid>
       </Container>
     </Box>

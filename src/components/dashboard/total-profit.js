@@ -57,7 +57,7 @@ export const TotalProfit = (props) => (
           color="textSecondary"
           variant="caption"
         >
-          meters/year
+          meter/year
         </Typography>
       </Box>
     </CardContent>

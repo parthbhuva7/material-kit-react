@@ -3,6 +3,7 @@ import { Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { DashboardNavbar } from './dashboard-navbar';
 import { DashboardSidebar } from './dashboard-sidebar';
+import FloatingActionButton from './dashboard/floating-action-button';
 
 const DashboardLayoutRoot = styled('div')(({ theme }) => ({
   display: 'flex',
@@ -37,6 +38,8 @@ export const DashboardLayout = (props) => {
         onClose={() => setSidebarOpen(false)}
         open={isSidebarOpen}
       />
+          <FloatingActionButton />
+
     </>
   );
 };
