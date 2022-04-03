@@ -16,7 +16,7 @@ const Dashboard = () => (
   <>
     <Head>
       <title>
-        Dashboard | Material Kit
+        Dashboard | Kalpataru Corporation
       </title>
     </Head>
     <Box

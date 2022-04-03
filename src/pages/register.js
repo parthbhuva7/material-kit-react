@@ -64,7 +64,7 @@ const Register = () => {
     <>
       <Head>
         <title>
-          Register | Material Kit
+          Register | Kalpataru Corporation
         </title>
       </Head>
       <Box

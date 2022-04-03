@@ -16,7 +16,7 @@ const Products = () => {
   <>
     <Head>
       <title>
-        Products | Material Kit
+        Products | Kalpataru Corporation
       </title>
     </Head>
     <Box
