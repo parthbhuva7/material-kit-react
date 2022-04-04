@@ -18,7 +18,7 @@ export const CorporateProfile = (props) => {
           <Grid container>
             <Grid 
               item
-              lg={4}
+              lg={3}
               md={12}
               xl={3}
               xs={12}
@@ -32,13 +32,13 @@ export const CorporateProfile = (props) => {
               >
                 <img
                   alt="Product"
-                  src="/static/images/products/product_1.png"
+                  src="/static/images/kalpataru/logo.png"
                 />
               </Box>
             </Grid>
             <Grid
               item
-              lg={8}
+              lg={9}
               md={12}
               xl={9}
               xs={12}

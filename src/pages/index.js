@@ -42,6 +42,15 @@ const Dashboard = () => (
           </Grid>
           <Grid
             item
+            lg={12}
+            md={12}
+            xl={12}
+            xs={12}
+          >
+            <CorporateProfile />
+          </Grid>
+          <Grid
+            item
             lg={3}
             sm={6}
             xl={3}
@@ -75,15 +84,6 @@ const Dashboard = () => (
             xs={12}
           >
             <TotalProfit sx={{ height: '100%' }} />
-          </Grid>
-          <Grid
-            item
-            lg={12}
-            md={12}
-            xl={12}
-            xs={12}
-          >
-            <CorporateProfile />
           </Grid>
           {/* <Grid
             item
