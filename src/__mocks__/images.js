@@ -18,5 +18,10 @@ export const portfolioImages = [
       label: '',
       imgPath:
         '/static/images/kalpataru/k4.png',
+    },
+    {
+      label: '',
+      imgPath:
+        '/static/images/kalpataru/k5.png',
     }
   ];
