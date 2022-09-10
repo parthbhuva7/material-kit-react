@@ -1,5 +1,5 @@
 import { Avatar, Box, Card, CardContent, Grid, Typography } from '@mui/material';
-import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
+import DevicesFoldIcon from '@mui/icons-material/DevicesFold'
 
 export const TotalProfit = (props) => (
   <Card {...props}>
@@ -15,7 +15,7 @@ export const TotalProfit = (props) => (
             gutterBottom
             variant="overline"
           >
-            PROCESSED FABRIC
+            FABRIC
           </Typography>
           <Typography
             color="textPrimary"
@@ -32,7 +32,7 @@ export const TotalProfit = (props) => (
               width: 56
             }}
           >
-            <AttachMoneyIcon />
+            <DevicesFoldIcon />
           </Avatar>
         </Grid>
       </Grid>

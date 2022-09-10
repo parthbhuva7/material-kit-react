@@ -27,7 +27,7 @@ export const CorporateProfile = (props) => {
                 sx={{
                   display: 'flex',
                   justifyContent: 'center',
-                  height: '100%'
+                  height: '180px'
                 }}
               >
                 <img
@@ -47,7 +47,7 @@ export const CorporateProfile = (props) => {
                 color="inherit"
                 variant="body1"
               >
-                Leading the premium cotton shirting fabrics and the high street fashion printed fabrics, Kalpataru Corporation is the global rulers of the industry.
+                Leading the premium cotton fabrics and the high street fashion printed fabrics, Kalpataru Corporation is the global rulers of the industry.
                 <br/>
                 <br/>
                 <p>We at Kalpataru boast a high profile list of clientele that includes domestic and international brands across 44 countries. This list includes brands like Uniqlo, Zara, Esprit, Next, Paul Smith, M&S, H&M, ANF, Belk, Moss Brothers to name a few. Some of the farfetched domestic client brands include names like Louis Philippe, Van Huesen, Blackberry and Zodiac.</p>
