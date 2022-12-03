@@ -11,7 +11,7 @@ export const ImageShow = (props) => (
     sx={{ height: '100%' }}
     {...props}
   >
-    <CardContent>
+    <CardContent sx={{ p:0, '&:last-child': { pb: 0 }}}>
       <Box sx={style}>
         <CarouselImages images={portfolioImages} autoplay={true} />
       </Box>
